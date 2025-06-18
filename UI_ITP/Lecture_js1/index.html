@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+// 1. Print numbers from 1 to 10
+console.log("Numbers from 1 to 10:");
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+// 2. Print numbers from 100 to 200
+console.log("Numbers from 100 to 200:");
+for (let i = 100; i <= 200; i++) {
+  console.log(i);
+}
+
+// 3. Print numbers from 100 to 1
+console.log("Numbers from 100 to 1:");
+for (let i = 100; i >= 1; i--) {
+  console.log(i);
+}
+
+// 4. Print even numbers from 50 to 10
+console.log("Even numbers from 50 to 10:");
+for (let i = 50; i >= 10; i--) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+// 5. Print addition of numbers from 10 to 100
+let sum1 = 0;
+for (let i = 10; i <= 100; i++) {
+  sum1 += i;
+}
+console.log("Sum from 10 to 100: " + sum1);
+
+// 6. Print addition of numbers from 59 to 100
+let sum2 = 0;
+for (let i = 59; i <= 100; i++) {
+  sum2 += i;
+}
+console.log("Sum from 59 to 100: " + sum2);
+
+// 7. Print all even numbers between 1 and 20 using a while loop
+console.log("Even numbers from 1 to 20 using while loop:");
+let i = 1;
+while (i <= 20) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+  i++;
+}
+
+// 8. Print the multiplication table of a number (e.g., 5)
+let num = 5;
+console.log("Multiplication table of " + num + ":");
+for (let i = 1; i <= 10; i++) {
+  console.log(`${num} x ${i} = ${num * i}`);
+}
+
+// 9. Calculate the sum of numbers from 1 to n (input)
+let n = parseInt(prompt("Enter a number to calculate the sum from 1 to n:"));
+let sum3 = 0;
+for (let i = 1; i <= n; i++) {
+  sum3 += i;
+}
+console.log(`Sum from 1 to ${n}: ${sum3}`);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

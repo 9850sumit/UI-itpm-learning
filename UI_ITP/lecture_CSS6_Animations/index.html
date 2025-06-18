@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      .container {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(194, 194, 128);
+        border: 5px solid black;
+        position: relative;
+      }
+      .box {
+        width: 400px;
+        height: 100px;
+        background-color: blue;
+        border: 5px solid yellow;
+        margin: 5px;
+        border-radius: 10px;
+        position: absolute;
+        animation-name: right;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+      }
+      @keyframes right {
+        from {
+          top: 0;
+          left: 0;
+        }
+        to {
+          top: 0;
+          left: 1200px;
+        }
+      }
+      #box2 {
+        width: 400px;
+        height: 100px;
+        background-color: blue;
+        border: 5px solid yellow;
+        margin: 5px;
+        border-radius: 10px;
+        position: absolute;
+        animation-name: left;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+      }
+      @keyframes left {
+        from {
+          top: calc(100% - 100px);
+          left: calc(100% - 400px);
+        }
+        to {
+          top: calc(100% - 100px);
+          left: 0;
+        }
+      }
+      #circle {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50px;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: calc(50% - 50px);
+        animation-name: circle;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes circle {
+        0% {
+          top: calc(50% - 50px);
+          left: calc(50% - 50px);
+        }
+        25% {
+          top: 0;
+          left: calc(50% - 50px);
+        }
+        50% {
+          top: calc(50% - 50px);
+          left: calc(100% - 100px);
+        }
+        75% {
+          top: calc(100% - 100px);
+          left: calc(50% - 50px);
+        }
+        100% {
+          top: calc(50% - 50px);
+          left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div id="box2"></div>
+      <div id="circle"></div>
+    </div>
+  </body>
+</html>

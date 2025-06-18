@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // 1. Function that prints the addition of two numbers
+      function add(a, b) {
+        console.log("Addition:", a + b);
+      }
+      add(5, 3);
+
+      // 2. Function that takes two numbers and prints their product
+      function multiply(a, b) {
+        console.log("Product:", a * b);
+      }
+      multiply(4, 7);
+
+      // 3. Function that subtracts one number from another and returns the result
+      function subtract(a, b) {
+        return a - b;
+      }
+      console.log("Subtraction:", subtract(10, 4));
+      // 4. Function divide(a, b) with default b = 1
+      function divide(a, b = 1) {
+        return a / b;
+      }
+      console.log("Division:", divide(10));
+
+      // 5. Function greet(name = "User")
+      function greet(name = "User") {
+        console.log(`Hello, ${name}!`);
+      }
+      greet();
+      greet("Sumit");
+
+      // 6. Function square(num = 2)
+      function square(num = 2) {
+        return num * num;
+      }
+      console.log("Square:", square());
+
+      console.log("Square:", square(5));
+
+      // 7. Function fullName(firstName, lastName = "Biradar")
+      function fullName(firstName, lastName = "Biradar") {
+        console.log(`Full Name: ${firstName} ${lastName}`);
+      }
+      fullName("Sumit");
+
+      fullName("Sumit", "Biradar");
+
+      // 8. Function findArea(length = 5, width = 10)
+      function findArea(length = 5, width = 10) {
+        return length * width;
+      }
+      console.log("Area:", findArea());
+
+      console.log("Area:", findArea(3, 6));
+
+      // 9. Function showAge(name = "Unknown", age = 0)
+      function showAge(name = "Unknown", age = 0) {
+        console.log(`${name} is ${age} years old.`);
+      }
+      showAge();
+      // 10.Create a function repeatMessage(message = "Hi", times = 3)
+      function repeatMessage(message = "Hi", times = 3) {
+        for (let i = 0; i < times; i++) {
+          console.log(message);
+        }
+      }
+      repeatMessage();
+      // 11.Write a function formatEmail(username = "user", domain = "example.com") format user@example.com.
+      function formatEmail(username = "user", domain = "example.com") {
+        return `${username}@${domain}`;
+      }
+      console.log("Email:", formatEmail());
+
+      // 12.Write a function isPositive(num = 0) 
+      function isPositive(num = 0) {
+        return num > 0;
+      }
+      console.log("Is Positive:", isPositive(1));
+      console.log("Is Positive:", isPositive(-1));
+    </script>
+  </head>
+  <body></body>
+</html>

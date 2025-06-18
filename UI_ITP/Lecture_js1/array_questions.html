@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1. Array of student objects
+let students = [
+  { name: "Sumit", marks: 85 },
+  { name: "Neha", marks: 35 },
+  { name: "Raj", marks: 55 },
+  { name: "Priya", marks: 90 }
+];
+
+// 2. Display all students
+console.log("All Students:");
+students.forEach(student => {
+  console.log(`${student.name} scored ${student.marks}`);
+});
+
+// 3. Filter passed students
+let passed = students.filter(student => student.marks >= 40);
+console.log("\nStudents who passed:");
+passed.forEach(s => console.log(s.name));
+
+// 4. Calculate average marks
+let total = students.reduce((sum, s) => sum + s.marks, 0);
+let average = total / students.length;
+console.log(`\nAverage Marks: ${average}`);
+
+// 5. Get top scorers (marks >= 80)
+let topScorers = students.filter(s => s.marks >= 80).map(s => s.name);
+console.log("\nTop Scorers:", topScorers);
+
+// 6. Add a new student
+function addStudent(name, marks) {
+  students.push({ name, marks });
+  console.log(`\nAdded new student: ${name} (${marks} marks)`);
+}
+
+addStudent("Anjali", 76);
+
+// Display updated list
+console.log("\nUpdated Student List:");
+students.forEach(s => console.log(`${s.name} - ${s.marks}`));
+
+    </script>
+</body>
+</html>

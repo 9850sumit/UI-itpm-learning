@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section class="container-fluid g-0" id="main">
+      <section class="container-fluid " id="header">
+        <section class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md ">
+                <div class="container-fluid">
+                  <a class="navbar-brand w-50" href="#"
+                    ><img
+                      src="https://organicindia.com/cdn/shop/files/logo-120x120_2.jpg?v=1743768667"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item me-3">
+                        <a
+                          class="nav-link active "
+                          aria-current="page"
+                          href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Blogs
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Recent</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">LifeStyle</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Health</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="btn btn-outline-success" type="submit">
+                        Search
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!--end of header-->
+
+      <section class="container-fluid" id="herosection">
+        <section class="row">
+          <div class="col-12 p-0">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://organicindia.com/cdn/shop/files/immunity-web-banner-1920x600_1_1.jpg?v=1738129650"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://organicindia.com/cdn/shop/files/Website-1920x600_4.jpg?v=1744781273"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://organicindia.com/cdn/shop/files/gokshura-capsules-for-men.jpg?v=1743679785"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!--end of herosection-->
+
+      <section class="container-fluid my-5" id="program">
+        <section class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Trending Now !</h2>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="https://organicindia.com/cdn/shop/files/Image1_4d15f4f9-44e0-4243-be00-51c2dadb5838_558X600_crop_center.jpg?v=1744393514"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Coconut oil Virgin</h5>
+                  <p class="card-text">
+                    <h3>This is a Vegetarian product</h3>
+                  </p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="https://organicindia.com/cdn/shop/files/3_ef3abb37-323e-4313-8294-45771ce24adb_558X600_crop_center.jpg?v=1732176340"
+                    class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Organic Jaggery Powder</h5>
+                  <p class="card-text">
+                      <h3>This is a Vegetarian product</h3>
+                  </p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="https://organicindia.com/cdn/shop/files/2_8a5aeb8d-4283-4304-9b40-35b4a3cdddec_558X600_crop_center.jpg?v=1737719362"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Organic Cow Ghee</h5>
+                  <p class="card-text">
+                      <h3>This is a Vegetarian product</h3>
+                  </p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="https://organicindia.com/cdn/shop/files/2_a75b40c3-2652-4bca-9986-1737d259cc9f_558X600_crop_center.jpg?v=1737719894"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Groundnut Oil</h5>
+                  <p class="card-text">
+                      <h3>This is a Vegetarian product</h3>
+                  </p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!--end of program-->
+
+      <section class="container-fluid" id="core">
+        <section class="container">
+          <section class="row">
+            <div class="col-12 text-center">
+              <h2>Best Selling Organic Products</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://organicindia.com/cdn/shop/files/ashwagandhacaps_45ab6f6a-ddb1-45be-b4df-2b3dce03839a_200x220_crop_center.jpg?v=1713250204"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Ashwagandha for Increased Virility & Reduced Stress</h5>
+                      <p class="card-text">
+                        <h3>This is a Vegetarian product</h3>
+                        <ul>
+                            <Li><b>Return Policy:</b>7 Days Replacement Policy. Read more</Li>
+                            <Li><b>Available Offers:</b> </Li>
+                            <Li>Flat ₹900 off on Clean 7 Day Kit. T&C</Li>
+                        </ul>
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://organicindia.com/cdn/shop/files/051A0195_67e8ec2b-db15-494a-99f3-f2e32e920b55_200x220_crop_center.jpg?v=1715940720"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Liver Kidney Care</h5>
+                      <p class="card-text">
+                       <h3>This is a Vegetarian product</h3>
+                        <ul>
+                            <Li><b>Return Policy:</b>7 Days Replacement Policy. Read more</Li>
+                            <Li><b>Available Offers:</b> </Li>
+                            <Li>Flat ₹900 off on Clean 7 Day Kit. T&C</Li>
+                        </ul>
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://organicindia.com/cdn/shop/files/chamomile-tea-side-effects_200x220_crop_center.jpg?v=1734093593"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Simply Chamomile Tea</h5>
+                      <p class="card-text">
+                        <h3>This is a Vegetarian product</h3>
+                        <ul>
+                            <Li><b>Return Policy:</b>7 Days Replacement Policy. Read more</Li>
+                            <Li><b>Available Offers:</b> </Li>
+                            <Li>Flat ₹900 off on Clean 7 Day Kit. T&C</Li>
+                        </ul>
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://organicindia.com/cdn/shop/files/Classic-INGCC_200x220_crop_center.jpg?v=1705917692"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Tulsi Green Tea Classic</h5>
+                      <p class="card-text">
+                        <h3>This is a Vegetarian product</h3>
+                        <ul>
+                            <Li><b>Return Policy:</b>7 Days Replacement Policy. Read more</Li>
+                            <Li><b>Available Offers:</b> </Li>
+                            <Li>Flat ₹900 off on Clean 7 Day Kit. T&C</Li>
+                        </ul>
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+      <!--end of core-->
+
+    <section class="container" id="tulsi">
+        <section class="row">
+            <div class="col-12 col-md-6">
+                <img src="https://organicindia.com/cdn/shop/files/613X630-tulsi-farm-image.png?v=1666268098" class="img-fluid" alt="" width="500px" height="400px">
+            </div>
+            <div class="col-12 col-md-6">
+                 <div class="row">
+                    <div class="col-2">
+                        <img src="https://organicindia.com/cdn/shop/files/icon-1.png?v=1667396330" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10">
+                        <h4>GUARD AGAINST COUGH, COLD & POLLUTION</h4>
+                        <p>Tulsi is long known to have anti-inflammatory, anti-bacterial, and anti-viral properties that help fight infections, hasten the healing of wounds and increase immunity against cough and cold.</p>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://organicindia.com/cdn/shop/files/icon-1.png?v=1667396330" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10">
+                        <h4>GUARD AGAINST COUGH, COLD & POLLUTION</h4>
+                        <p>Tulsi is long known to have anti-inflammatory, anti-bacterial, and anti-viral properties that help fight infections, hasten the healing of wounds and increase immunity against cough and cold.</p>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://organicindia.com/cdn/shop/files/icon-1.png?v=1667396330" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10">
+                        <h4>GUARD AGAINST COUGH, COLD & POLLUTION</h4>
+                        <p>Tulsi is long known to have anti-inflammatory, anti-bacterial, and anti-viral properties that help fight infections, hasten the healing of wounds and increase immunity against cough and cold.</p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </section>
+ 
+ <!--end of tulsi-->
+      <section class="container-fluid">
+        <section class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1>HEALTHY CONSCIOUS LIVING</h1>
+              <p>
+                Healthy Conscious Living includes conscious business practices to ensure our impact on our world and communities is a positive one. At the foundation of ORGANIC INDIA’s products, 
+                company, and sourcing is regenerative agriculture that not only sustains but replenishes the earth; fair trade practices that support and honour farmer partners with equitable wages,
+                 health care, and ongoing organic agricultural training; and a LEED Platinum certified production facility that is a marvel of top-tier sustainable design, construction, and operations.
+                  This all culminates in the creation of Organic, Non-GMO herbal teas and supplements that support the health of the population, the vibrancy of the planet, 
+                and the livelihood of communities in India.
+              </p>
+              <button class="btn btn-outline-warning">Shop Now</button>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-12 col-md-6 text-center">
+                  <div class="card">
+                    <img
+                      src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/09/news9-390x380.jpg"
+                      class="card-img-top w-25"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                  <div class="card">
+                    <img
+                      src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/09/news9-390x380.jpg"
+                      class="card-img-top w-25"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                  <div class="card">
+                    <img
+                      src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/09/news9-390x380.jpg"
+                      class="card-img-top w-25"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                  <div class="card">
+                    <img
+                      src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/09/news9-390x380.jpg"
+                      class="card-img-top w-25"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="container-fluid bg-success py-5">
+        <section class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <h2>This is demo</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+              aperiam suscipit id blanditiis unde eaque quasi, quo possimus
+              ducimus. Obcaecati asperiores, beatae eum molestias optio in
+              sapiente numquam ex eveniet!
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="container-fluid">
+        <section class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-bg-dark">
+              <img
+                src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2015/12/news2-350x220.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay text-warning">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-bg-dark">
+              <img
+                src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2015/12/news2-350x220.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-bg-dark">
+              <img
+                src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2015/12/news2-350x220.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="container-fluid">
+        <section class="row">
+          <div class="col-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="home-tab-pane"
+                  aria-selected="true"
+                >
+                  Home
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  Profile
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  Contact
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="disabled-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#disabled-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="disabled-tab-pane"
+                  aria-selected="false"
+                  disabled
+                >
+                  Disabled
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home-tab-pane"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+              >
+                <section class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2015/12/news2-350x220.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                      <div class="card-img-overlay text-warning">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small>Last updated 3 mins ago</small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2015/12/news2-350x220.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                      <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small>Last updated 3 mins ago</small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2015/12/news2-350x220.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                      <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small>Last updated 3 mins ago</small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile-tab-pane"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+                tabindex="0"
+              >
+                <section class="row">
+                  <div class="col-12 text-center">
+                    <h2>Classes</h2>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                      <img
+                        src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/04/classes1-350x190.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                      <img
+                        src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/04/classes1-350x190.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                      <img
+                        src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/04/classes1-350x190.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact-tab-pane"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="disabled-tab-pane"
+                role="tabpanel"
+                aria-labelledby="disabled-tab"
+                tabindex="0"
+              >
+                ...
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--end of main-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Organic India Clone | Made by Sumit Rajkumar Biradar</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+  </body>
+</html>
